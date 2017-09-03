@@ -6,13 +6,13 @@ int main(void)
 {
     //printf("hello, ubuntu again~!");
 	
-	char str[10];
+    char str[10];
+    //char str[1];
 
-	int x = 0; 
+    int x = 0; 
     int y = 0;
 	
-	//char str[1];
-
+	
 	x = strlen(str);
     y = sizeof(str);
 	

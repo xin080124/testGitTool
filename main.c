@@ -12,12 +12,11 @@ int main(void)
     int x = 0; 
     int y = 0;
 	
-	
-	x = strlen(str);
+    x = strlen(str);
     y = sizeof(str);
 	
     int res = sum(10,15);
-	printf("\n the return value is %d",res);
+    printf("\n the return value is %d",res);
 	
 
        char *pc = (char *)malloc(10);
